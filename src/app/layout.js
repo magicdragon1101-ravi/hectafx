@@ -22,6 +22,7 @@ const RootLayout = async ({ children }) => {
         <title>HECTAFX</title>
         <link rel="icon" href="/logo.jpg" />
         <meta name="viewport" content="width=device-width" />
+        <script type="text/javascript" src="./tv.js"></script>
       </head>
       <body className="flex flex-col w-full min-h-screen">
         <Header />

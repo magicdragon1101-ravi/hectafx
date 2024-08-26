@@ -1,7 +1,8 @@
 import React from "react";
+import TradingViewWidget from "@/components/TradingViewWidget";
 
 const Home = () => {
-  return <div>Home</div>;
+  return <TradingViewWidget />;
 };
 
 export default Home;
