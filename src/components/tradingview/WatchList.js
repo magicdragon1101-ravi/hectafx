@@ -10,7 +10,7 @@ const WatchList = () => {
       title: "Currencies",
       title_link: "/markets/currencies/rates-major/",
       width: "100%",
-      height: "450",
+      height: "100%",
       locale: "en",
       showSymbolLogo: true,
       symbolsGroups: [
