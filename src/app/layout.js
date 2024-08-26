@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AuthProvider from "@/components/auth/AuthProvider";
 import { supabase } from "@/libs/supabase";
+import Script from "next/script";
 
 export const metadata = {
   title: "HECTAFX",
@@ -22,7 +23,7 @@ const RootLayout = async ({ children }) => {
         <title>HECTAFX</title>
         <link rel="icon" href="/logo.jpg" />
         <meta name="viewport" content="width=device-width" />
-        <script type="text/javascript" src="./tv.js"></script>
+        <Script type="text/javascript" src="./tv.js"></Script>
       </head>
       <body className="flex flex-col w-full min-h-screen">
         <Header />
