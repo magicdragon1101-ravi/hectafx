@@ -11,8 +11,8 @@ const TradingViewWidget = ({ symbol = "BITSTAMP:BTCUSD" }) => {
         symbol: "BITSTAMP:BTCUSD",
         autosize: true,
         interval: "1",
-        timezone: "America/Argentina/Buenos_Aires",
-        theme: "dark",
+        timezone: "America/New_York",
+        theme: "light",
         style: "1",
         locale: "en",
         padding: "10px",
@@ -42,7 +42,7 @@ const TradingViewWidget = ({ symbol = "BITSTAMP:BTCUSD" }) => {
     <div
       id="trading-view-widget"
       ref={containerRef}
-      className="w-full border border-solid border-gray-500 rounded m-5"
+      className="w-full rounded mr-5"
     />
   );
 };
